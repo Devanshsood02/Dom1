@@ -12,9 +12,13 @@ increase.addEventListener('click',function(){
 });
 
 decrease.addEventListener('click',function(){
-if(a>0)
+if(a>0){
     a--;
     h1.textContent=a;
+    }
+    else{
+        h1.textContent=0;
+    }
 });
 
 re.addEventListener('click',function(){
